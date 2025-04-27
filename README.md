@@ -18,7 +18,15 @@ language: ["en", "ja"]
 
 ---
 
-## Overview / 概要
+## About / 概要
+
+The QSA Model provides a structured, recursive cognitive framework designed to enhance AI reasoning and human-AI co-creation through a formalized cycle of Question → Structure → Answer → Thought.
+
+QSAモデルは、問い→構造→答え→思考という形式化されたサイクルを通じて、AI推論および人間-AI共創を強化するために設計された、構造的かつ再帰的な認知フレームワークです。
+
+---
+
+## Overview / 詳細概要
 
 The QSA Model formalizes a recursive cognitive cycle to enhance AI reasoning and human-AI co-creation.
 
@@ -37,6 +45,13 @@ AI推論能力および人間とAIの共創能力を高めるために設計さ�
   構造に基づき、回答を導き出す。
 - **Thought**: Reflect, evolve, and re-initiate new questions.  
   反省と発展を経て、新たな問いへと接続する。
+
+---
+
+## Documentation / ドキュメント
+
+Detailed explanations, comparisons with existing models, examples, and deep research validation are available in the [docs/](./docs/) directory.  
+詳しい説明、既存モデルとの比較、使用例、独自性に関する深堀調査は、[docs/](./docs/) ディレクトリにまとめられています。
 
 ---
 
