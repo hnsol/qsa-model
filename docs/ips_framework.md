@@ -1,128 +1,106 @@
 ---
-title: iPS Framework - Intent, Plan, Scope for Thought Process Design / iPSフレームワーク - 思考プロセス設計のためのインテント、プラン、スコープ
-created_at: 2025-04-28
-updated_at: 2025-04-29
-description: "The iPS Framework (Intent, Plan, Scope) is a lightweight guideline for designing the thought process within the Structure (S) phase of the QSA Model, enabling flexible adaptation and evolution. / iPSフレームワーク（インテント、プラン、スコープ）は、QSAモデルの構造（S）フェーズ内における思考プロセス設計のための軽量なガイドラインであり、柔軟な適応と進化を可能にします。"
-target_audience:
-  - LLM
-  - Human
-document_type: Extension
-tags:
-  - QSA
-  - LLM Reasoning
-  - Extension
-  - iPS
-  - Thought Process Design
-status: completed
-license: MIT
-language:
-  - en
-  - ja
+title: "iPS Framework - Intent, Plan, Scope for Thought Process Design / iPSフレームワーク - 思考プロセス設計のためのインテント、プラン、スコープ"
+description: "The iPS Framework provides a lightweight and flexible guideline for designing structured thinking processes within the Structure (S) phase of the QSA Model. / iPSフレームワークは、QSAモデルの構造（S）フェーズにおいて、思考プロセスを構造化するための軽量かつ柔軟なガイドラインです。"
+target_audience: ["LLM", "Human"]
+document_type: "Extension"
+tags: ["QSA", "LLM Reasoning", "Extension", "iPS", "Thought Process Design"]
+status: "published"
+created_at: "2025-04-28"
+updated_at: "2025-04-29"
+license: "MIT"
+language: ["en", "ja"]
+---
+
+# iPS Framework - Intent, Plan, Scope for Thought Process Design / iPSフレームワーク - 思考プロセス設計のためのインテント、プラン、スコープ
+
 ---
 
 ## Purpose / 目的
 
-The iPS Framework (Intent → Plan → Scope) is a lightweight **guideline for designing the thought process**, complementing the Structure (S) phase of the QSA Model (Question → Structure → Answer → Thought).  
+The iPS Framework (Intent → Plan → Scope) is a lightweight guideline for designing the thought process, complementing the Structure (S) phase of the QSA Model (Question → Structure → Answer → Thought).  
 （iPSフレームワーク（インテント→プラン→スコープ）は、QSAモデル（問い→構造→答え→思考）の「構造（S）」フェーズを補完する、思考プロセス設計のための軽量なガイドラインです。）
 
-It focuses on *how to organize thinking* flexibly, without prescribing specific data formats (like YAML/JSON) or fixed prompting templates.  
-（特定のデータ形式（YAML/JSONなど）や固定プロンプトテンプレートを規定するのではなく、思考をどのように構造化するかに柔軟に焦点を当てます。）
+It focuses on how to organize thinking flexibly without prescribing specific data formats (like YAML/JSON) or rigid prompting templates.  
+（特定のデータ形式（YAML/JSONなど）や厳密なプロンプトテンプレートを規定せず、思考をどのように柔軟に構造化するかに焦点を当てます。）
 
 ---
 
 ## Core Content / コアコンテンツ
 
-### Overview / 概要
+### Overview of iPS Flow / iPSフロー概要
 
-The iPS Framework defines a three-stage flow for structuring thinking:  
-（iPSフレームワークは、思考を構造化するための3段階のフローを定義します。）
+The iPS Framework structures thinking into three stages:
 
-- **Intent (インテント)**: Clearly define the **ultimate goal or aim** of the thinking activity.  
+（iPSフレームワークは、思考を次の3段階に構造化します：）
+
+- **Intent (インテント)**: Clearly define the ultimate goal or aim of the thinking activity.  
   （思考活動における最終ゴールや目的を明確にする。）
 
-- **Plan (プラン)**: Draft a **logical path or strategy** for reaching the Intent.  
-  （インテント達成のための論理的な道筋や設計を描く。）
+- **Plan (プラン)**: Draft a logical path or strategy for reaching the Intent.  
+  （インテント達成に向けた論理的な道筋や設計を描く。）
 
-- **Scope (スコープ)**: Specify **boundaries, constraints, and guiding conditions** to shape the thinking space without limiting creativity.  
-  （創造性を制限することなく、思考空間を形作るための境界条件、制約条件、指針を明示する。）
-
-Scope enables structured freedom, ensuring that LLMs or humans operate flexibly within meaningful parameters.  
-（スコープは、意味のある範囲内でLLMや人間が柔軟に思考できるように設計されます。）
+- **Scope (スコープ)**: Specify boundaries, constraints, and guiding conditions to shape the thinking space without limiting creativity.  
+  （創造性を制限することなく、思考空間を形成するための境界条件、制約条件、指針を設定する。）
 
 ---
 
-## Relation to Prompting Techniques / プロンプト技術との関係
+### Relation to Prompting Techniques / プロンプト技術との関係
 
-**iPS is distinct from typical prompting techniques such as Chain of Thought (CoT), Self-Ask, or ReAct.**  
-（iPSは、Chain of Thought（CoT）、Self-Ask、ReActなどの一般的なプロンプト技術とは異なります。）
+iPS operates at a higher level of abstraction compared to common prompting techniques such as Chain of Thought (CoT), Self-Ask, or ReAct.  
+（iPSは、Chain of Thought（CoT）、Self-Ask、ReActといった一般的なプロンプト技術よりも高い抽象レベルで機能します。）
 
-- **Focus Level / 焦点レベル**: Prompting techniques guide *how to execute* a given task, while iPS operates *before* that, designing the overall *thought architecture*.  
-  （プロンプト技術はタスク遂行方法を指示しますが、iPSはその前段階で思考の構造全体を設計します。）
+- **Focus Level / 焦点レベル**:  
+  Prompting techniques typically instruct *how an LLM should execute a task* (e.g., "think step-by-step"), whereas iPS focuses on *designing the overall flow of thought* prior to prompt execution.  
+  （プロンプト技術は通常、LLMがタスクを*どのように実行すべきか*を指示しますが、iPSはそれ以前に*思考の全体フロー*を設計することに焦点を当てます。）
 
-- **Flexibility / 柔軟性**: iPS is not bound by specific formats. The Plan and Scope can dynamically accommodate different reasoning styles and prompting methods.  
-  （iPSは特定の形式に縛られず、プランとスコープを通じて異なる推論スタイルやプロンプト方法に柔軟に適応できます。）
+- **Flexibility / 柔軟性**:  
+  Prompting formats often impose specific steps or structures. iPS offers flexible thinking architecture, allowing incorporation of methods like CoT or Self-Ask within a broader, adaptive framework.  
+  （プロンプト形式は特定の手順や構造を要求することが多いですが、iPSはより広範で適応的なフレームワークの中で、CoTやSelf-Askのような方法を柔軟に取り入れることを可能にします。）
 
-- **Goal / 目標**: iPS aims to **structure the human side of the thought process**, enabling clearer communication with LLMs or among collaborators.  
-  （iPSは思考プロセスにおける人間側の構造化を目指し、LLMや共同作業者とのより明確な対話を可能にします。）
+- **Goal / 目標**:  
+  iPS structures the *human side* of the thought process, clarifying purpose and logical flow before specific prompt construction.  
+  （iPSは思考プロセスにおける*人間側*を構造化し、具体的なプロンプト構築に先立って目的と論理的流れを明確にします。）
 
----
-
-## Example of Connecting iPS to S Implementation / iPSからS実装への接続例
-
-For example:  
-（例：）
-
-1. **iPS Design / iPSによる設計:**
-    * `Intent`: Explore optimal question design strategies in 1-on-1 meetings.  
-      （1on1ミーティングにおける最適な質問設計戦略を探究する。）
-    * `Plan`: Define open vs. closed questions → Compare psychological impacts → Generate examples and heuristics.  
-      （オープン質問とクローズ質問を定義 → 心理的影響を比較 → 例とヒューリスティクスを生成。）
-    * `Scope`: Focus only on professional contexts; exclude casual conversations.  
-      （プロフェッショナルな文脈のみに焦点を当て、カジュアルな会話は除外する。）
-
-2. **Possible S Implementations / Sの実装例:**
-    - Structured prompt following the Plan steps.  
-      （プランのステップに従った構造的プロンプトを作成する。）
-    - JSON output schema shaped by the Scope conditions.  
-      （スコープ条件に基づいたJSON出力スキーマを設計する。）
-
----
-
-## Application in QSA / QSAモデルとの関係
-
-The iPS Framework operates **within the Structure (S) phase** of QSA, providing a mental model for *how to design* the thinking structure before implementation.  
-（iPSフレームワークは、QSAモデルの「構造（S）」フェーズ内で、実装に先立つ思考構造の設計を支援するメンタルモデルとして機能します。）
-
-It preserves the recursive, cyclic nature of QSA while adapting flexibly to either pure inquiry or practical application.  
-（QSAの本質的な循環性を維持しながら、純粋探究にも実務応用にも柔軟に適応できる設計を可能にします。）
+Thus, iPS complements prompting techniques by operating at a meta-level of thought design.  
+（したがって、iPSは思考設計のメタレベルで機能し、プロンプト技術を補完します。）
 
 ---
 
 ## Key Points / 重要ポイント
 
-- **Flexibility / 柔軟性**: Supports both pure exploration and real-world application.  
-  （純粋探究にも実務応用にも適応できる。）
+- **Flexibility / 柔軟性**: Supports both pure exploration and practical application.  
+  （純粋な探究にも実務的応用にも対応可能。）
 
-- **Process-Oriented / プロセス指向**: Emphasizes designing the thinking flow itself, not just outputs.  
-  （出力だけでなく、思考フロー自体の設計を重視する。）
+- **Process-Oriented / プロセス志向**: Prioritizes structuring the flow of thought itself.  
+  （思考の流れ自体を構造化することを重視。）
+
+- **Clarity / 明確性**: Explicitly defines goals and boundary conditions.  
+  （ゴールと境界条件を明確に定義する。）
 
 - **Minimalism / ミニマリズム**: Only Intent and Plan are mandatory; Scope is highly recommended but flexible.  
-  （インテントとプランは必須、スコープは推奨されるが柔軟。）
+  （インテントとプランは必須、スコープは推奨だが柔軟。）
 
-- **Clarity / 明確性**: Makes the thinking purpose and boundary conditions explicit.  
-  （思考目的と境界条件を明確にする。）
+- **Guideline, Not Template / ガイドラインでありテンプレートではない**: Offers freedom in specific implementations.  
+  （具体的な実装に自由度を持たせる。）
 
-- **Guideline, Not Template / ガイドラインでありテンプレートではない**: Offers a flexible mental model, not rigid step-by-step instructions.  
-  （固定手順ではなく柔軟なメンタルモデルを提供する。）
+---
+
+## Related Topics (Optional) / 関連トピック（任意）
+
+- [QSA Model Overview](./concept_overview.md)  
+（QSAモデル概要へのリンク）
+
+- [Deep Research on QSA Originality](./deep_research_on_originality.md)  
+（QSAの独自性に関するディープリサーチへのリンク）
 
 ---
 
 ## Future Work (Optional) / 将来展望（任意）
 
-- Develop IPS-driven templates for structured brainstorming.  
-  （IPS設計に基づく構造化ブレインストーミングテンプレートの開発。）
+- Develop IPS-based structured brainstorming templates.  
+  （IPSに基づく構造化ブレインストーミングテンプレートを開発する。）
 
-- Explore deeper integrations of Scope-driven reasoning in LLM agent design.  
-  （スコープ設計に基づくLLMエージェント設計との統合探究。）
+- Explore Scope-driven reasoning in agent architectures.  
+  （スコープ主導型推論を用いたエージェント設計の探究。）
 
 ---
