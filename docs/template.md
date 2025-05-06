@@ -1,16 +1,16 @@
 ---
 title: "Title of the Document / ドキュメントタイトル"
-description: "Brief summary of the document (2–3 lines), clarifying its role within the QSA ecosystem. / ドキュメントの概要（2〜3行）、QSAエコシステム内での役割を明確にする。" # descriptionの意図を追記
-target_audience: ["LLM", "Human", "Researcher", "Developer", "Contributor"] # 例: 必要に応じて選択・追加
-document_type: "Concept | Comparison | Example | CaseStudy | Extension | Guide | Protocol | Other" # 例: 文書タイプを選択
-tags: ["QSA", "Specific_Topic_1", "Specific_Topic_2"] # 例: QSAと関連性の高い具体的なタグを追加
+description: "Brief summary..."
+target_audience: ["LLM", "Human", "Researcher"] # Choose relevant ones
+document_type: "Concept" # Choose one type
+tags: ["SUI", "QSA", "Core Concepts", "Interaction Paradigm"] # Add SUI/QSA and specific topic tags
 status: "draft" # draft | published | revised
-created_at: "YYYY-MM-DD" # Date of first substantial content
-updated_at: "YYYY-MM-DD" # Date of last significant revision
+created_at: "2025-05-06"
+updated_at: "2025-05-06"
 license: "MIT"
 language: ["en", "ja"]
-# Optional fields like version, related, keywords, contributors, audience_level, scope/focus can be added if necessary.
-# （必要に応じて version, related, keywords, contributors, audience_level, scope/focus などの任意項目を追加可能）
+# related: # Optional: Add links if needed
+#  - ../concepts/related_document.md
 ---
 
 # Title / タイトル

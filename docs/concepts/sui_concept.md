@@ -3,30 +3,60 @@ title: "SUI: Semantic User Interface - The Paradigm for Human-AI Co-Thinking / S
 description: "Introduces the SUI (Semantic User Interface) paradigm for human-AI interaction centered on meaning, contrasting it with GUI and positioning structured protocols like the QSA model as operating within this paradigm. Includes discussion on its originality. / 意味を中心とした人間-AI相互作用のためのSUI（意味的ユーザーインターフェース）パラダイムを紹介し、GUIと対比させ、QSAモデルのような構造化プロトコルがこのパラダイム内で動作するものとして位置づける。その独自性に関する議論も含む。"
 target_audience: ["LLM", "Human", "Researcher", "Developer", "Designer"]
 document_type: "Concept"
-tags: ["QSA", "SUI", "LLM Interface", "Human-AI Collaboration", "Co-Thinking", "Cognitive Interface", "Semantic Interface", "GUI", "Future of UI", "Interaction Paradigm", "Originality"]
+tags: ["QSA", "SUI", "LLM Interface", "Human-AI Collaboration", "Co-Thinking", "Cognitive Interface", "Semantic Interface", "GUI", "Future of UI", "Interaction Paradigm", "Originality", "Quaerentes"]
 status: "revised"
 created_at: "2025-05-02"
-updated_at: "2025-05-02"
+updated_at: "2025-05-06" # 更新日を反映
 license: "MIT"
 language: ["en", "ja"]
 related:
-  - concept_overview.md # QSAモデル概要
-  - ips_framework.md # iPSフレームワーク
-  - comparisons_with_existing_models.md # 既存モデル比較
-  - ../research/deep_research_on_originality.md # QSA独自性調査
+  - qsa_concept_overview.md # 新しいファイル名
+  - ../extensions/ips_framework.md # 新しいパス
+  - ../research/qsa_comparisons.md # 新しいパス
+  - ../research/sui_originality.md # 新しい関連ファイル
 ---
 
 # SUI: Semantic User Interface - The Paradigm for Human-AI Co-Thinking / SUI: 人間とAIの共同思考のための意味的ユーザーインターフェースパラダイム
 
 ---
 
+## 📌 Note on Terminology / 用語に関する注記
+
+> The term "Semantic UI" has been previously used in web development (e.g., CSS frameworks) to refer to markup-oriented interface design. However, **this document reclaims and redefines it** as a **cognitive interaction paradigm** focused on collaborative reasoning between humans and LLMs. The SUI here is not about HTML semantics — it is about interacting *with* meaning, *through* meaning, *for* meaning. For detailed research on originality and relation to prior work, see [`../research/sui_originality.md`](../research/sui_originality.md).
+
+> （「Semantic UI」という語は、過去にWeb開発（例：CSSフレームワーク）でマークアップ志向のインターフェース設計を指すために使われたことがあります。しかし本ドキュメントにおけるSUIは、**その語を再定義・再獲得**し、人間とLLMの間の**意味ベースの認知的相互作用のパラダイム**として提示します。HTMLの意味構造ではなく、**意味と共に、意味を通して、意味のために対話する**という次元の話です。独自性や先行研究との関連に関する詳細な調査は [`../research/sui_originality.md`](../research/sui_originality.md) を参照してください。）
+
+---
+
+## 🧭 Strategic Positioning / 戦略的な位置づけ
+
+- GUI: "**Computer for the Rest of Us**"
+- SUI: "**Computer for the Quaerentes of Us**" *(Quaerentes: Latin for 'seekers' or 'those who inquire')*
+
+**GUI democratized usage.**
+**SUI aims to empower *thinking*.**
+GUI gave us windows and cursors.
+SUI gives us questions, structures, and meaning flows.
+GUI was about control.
+SUI is about cognition and inquiry.
+
+**GUIは「使うこと」を民主化した。**
+**SUIは「思考すること」をエンパワーする。**
+GUIが私たちに与えたのは、ウィンドウとカーソルだった。
+SUIが私たちに与えるのは、問い、構造、そして意味の流れである。
+GUIが目指したのは制御。
+SUIが目指すのは、**思考**であり、**探求**である。
+*(Quaerentes（クァエレンテス）：ラテン語で「探求する者たち」の意)*
+
+---
+
 ## Purpose / 目的
 
-This document introduces the concept of **SUI (Semantic User Interface)** as a **paradigm** for human-AI interaction. Unlike the Graphical User Interface (GUI) which revolutionized how humans *control* computers via visual manipulation, SUI focuses on enabling humans and AI systems (especially LLMs) to **collaboratively think** and **navigate complex semantic landscapes** by interacting directly with meaning and structure. It provides the conceptual foundation for **operational protocols like the QSA model** that structure this co-thinking process.
+This document introduces the concept of **SUI (Semantic User Interface)** as a **paradigm** for human-AI interaction. Unlike the Graphical User Interface (GUI) which revolutionized how humans *control* computers via visual manipulation, SUI focuses on enabling humans and AI systems (especially LLMs) to **collaboratively think** and **navigate complex semantic landscapes** by interacting directly with meaning and structure. It provides the conceptual foundation for **operational protocols like the QSA model** ([`./qsa_concept_overview.md`](./qsa_concept_overview.md)) that structure this co-thinking process *within the SUI paradigm*.
 
 *(The name "SUI" also resonates with several Japanese Kanji characters: 水 (Sui/Mizu: water, flow), 粋 (Sui/Iki: essence, chic, refinement), 推 (Sui: infer, deduce, recommend), and 随 (Zui/Sui: follow, accompany, adapt). These connotations—fluidity, essence, reasoning, and adaptive collaboration—harmonize intriguingly with the intended nature of SUI.)*
 
-（本ドキュメントは、人間とAIの相互作用のための**パラダイム**としての**SUI（Semantic User Interface - 意味的ユーザーインターフェース）** の概念を紹介します。人間が視覚的操作を通じてコンピュータを*制御する*方法を革命的に変えたグラフィカルユーザーインターフェース（GUI）とは異なり、SUIは人間とAIシステム（特にLLM）が意味と構造と直接対話することによって、**協調して思考し（co-think）**、**複雑な意味のランドスケープをナビゲートする**ことを可能にすることに焦点を当てます。それは、この共同思考プロセスを構造化する**QSAモデルのような運用プロトコル**のための概念的な基盤を提供します。）
+（本ドキュメントは、人間とAIの相互作用のための**パラダイム**としての**SUI（Semantic User Interface - 意味的ユーザーインターフェース）** の概念を紹介します。人間が視覚的操作を通じてコンピュータを*制御する*方法を革命的に変えたグラフィカルユーザーインターフェース（GUI）とは異なり、SUIは人間とAIシステム（特にLLM）が意味と構造と直接対話することによって、**協調して思考し（co-think）**、**複雑な意味のランドスケープをナビゲートする**ことを可能にすることに焦点を当てます。それは、この共同思考プロセスを構造化する**QSAモデルのような運用プロトコル** ([`./qsa_concept_overview.md`](./qsa_concept_overview.md)) のための概念的な基盤を **SUIパラダイム*内*で** 提供します。）
 
 *（また、「SUI（スイ）」という名称は、いくつかの日本語の漢字とも響き合います：水（流れ、柔軟性）、粋（本質、洗練）、推（推論、示唆）、随（追随、協調、適応）。これらの含意――流動性、本質、推論、そして適応的な協働――は、SUIが目指す性質と興味深く調和します。）*
 
@@ -84,7 +114,7 @@ Consider SUI as a fundamental shift in human-computer interaction, moving beyond
 | **User Goal**          | Control Software, Perform Tasks                | Evolve Understanding, Co-Create Knowledge, Navigate Complexity |
 | **System Feedback**    | Visual State Changes                           | Structured Answers, Reasoning Traces, Generated Semantic Artifacts |
 | **Underlying Model**   | Object/Component State                         | Cognitive Process / Knowledge Representation          |
-| **Emphasis**           | Ease of Use, Visual Intuition                  | Clarity of Meaning, Logical Validity, Traceability of Thought |
+| **Emphasis**           | Ease of Use, Visual Intuition                  | Clarity of Meaning, Logical Validity, Traceability of Thought, Empowering Inquiry |
 
 *(This table highlights the conceptual differences; real-world systems might blend elements of both.)*
 *（この表は概念的な違いを強調するものであり、実際のシステムは両方の要素を融合させる可能性があります。）*
@@ -103,27 +133,21 @@ Consider SUI as a fundamental shift in human-computer interaction, moving beyond
 
 ---
 
-### Originality and Relation to Existing Concepts / 独自性と既存概念との関係性
+### Originality and Relation to Existing Concepts / 独自性と既存概念との関係性 (Summary)
 
-Is SUI a completely new concept, or a rephrasing of existing ideas? While elements related to SUI exist in various fields, the specific combination and focus presented here offer novelty.
+While elements related to SUI exist in various fields (NLI, KR, HAIC, etc.), and the term "Semantic UI" has prior uses in different contexts (web frameworks, command systems), the SUI concept presented here offers a novel synthesis. Its distinctiveness lies in:
+1.  **Defining a Paradigm:** Explicitly framing SUI as a fundamental interaction paradigm focused on direct interaction with *meaning and cognitive structures* for co-thinking.
+2.  **Focus on Co-Thinking Flow:** Prioritizing the *evolution of understanding* through structured protocols (like QSA) over task completion.
+3.  **LLM as Native Engine:** Assuming powerful LLMs as the core engine for semantic interpretation and generation.
 
-（SUIは完全に新しい概念でしょうか、それとも既存のアイデアの言い換えでしょうか？ SUIに関連する要素は様々な分野に存在しますが、ここで提示される特定の組み合わせと焦点は新規性を提供します。）
+SUI is a **new framing and integration** spurred by LLM capabilities, aimed at deep human-AI cognitive collaboration. For a detailed analysis, see [`../research/sui_originality.md`](../research/sui_originality.md).
 
--   **Relation to NLI, KR, HAIC, etc.:** SUI builds upon and integrates concepts from Natural Language Interfaces (NLI), Knowledge Representation (KR), Semantic Web, Human-AI Collaboration (HAIC), Concept Mapping, and Personal Knowledge Management (PKM). It leverages NLI (especially via LLMs) for interaction and KR principles for structuring meaning.
-    （**NLI, KR, HAIC等との関係:** SUIは、自然言語インターフェース（NLI）、知識表現（KR）、セマンティックウェブ、人間-AI協働（HAIC）、コンセプトマッピング、パーソナルナレッジマネジメント（PKM）など、様々な分野の概念を基盤とし、統合しています。インタラクションにはNLI（特にLLM経由）を活用し、意味の構造化にはKRの原則を利用します。）
--   **Novelty and Distinction:** SUI's distinctiveness lies in:
-    1.  **Defining a Paradigm:** Explicitly positioning SUI as a fundamental interaction *paradigm* alongside GUI/CUI/NLI, centered on direct interaction with *meaning and cognitive structures*.
-    2.  **Focus on Co-Thinking:** Designing the interface primarily as an environment for *human-AI collaborative thinking and understanding evolution*, not just task completion or information retrieval.
-    3.  **Integration with Cognitive Protocols:** Tightly coupling the interface paradigm (SUI) with operational cognitive protocols (like QSA) that define the *flow* of co-thinking using semantic primitives.
-    4.  **LLM as Native Engine:** Conceiving the paradigm with powerful LLMs as the assumed engine for interpreting, generating, and manipulating semantic structures.
--   **Synthesis, Not Just Rephrasing:** Therefore, SUI is best understood not as a mere rephrasing, but as a **novel synthesis and reframing** of existing ideas, spurred by the advent of capable LLMs and focused specifically on the challenge and opportunity of deep human-AI cognitive collaboration. It offers a new lens and a structured approach for designing the next generation of intelligent interactive systems.
+（SUIに関連する要素は様々な分野（NLI, KR, HAIC等）に存在し、「Semantic UI」という用語も異なる文脈（Webフレームワーク、コマンドシステム）で過去に使用されていますが、ここで提示されるSUIの概念は新しい統合を提供します。その独自性は以下にあります：）
+1.  （**パラダイムの定義：** 共同思考のための*意味と認知構造*との直接的な対話に焦点を当てた、基本的なインタラクションパラダイムとしてSUIを明確に位置づける点。）
+2.  （**共同思考フローへの焦点：** タスク完了よりも、構造化されたプロトコル（QSAなど）を通じた*理解の進化*を優先する点。）
+3.  （**ネイティブエンジンとしてのLLM：** 強力なLLMを意味解釈と生成のためのコアエンジンとして想定する点。）
 
--   （**新規性と区別:** SUIの独自性は以下にあります：）
-    1.  （**パラダイムの定義：** GUI/CUI/NLIと並ぶ基本的なインタラクション*パラダイム*としてSUIを明確に位置づけ、*意味と認知構造*との直接的な対話に焦点を当てる点。）
-    2.  （**共同思考への焦点：** 単なるタスク完了や情報検索のためではなく、主として*人間とAIの協調的思考と理解進化*のための環境としてインターフェースを設計する点。）
-    3.  （**認知プロトコルとの統合：** インターフェースパラダイム（SUI）と、意味的プリミティブを用いた共同思考の*流れ*を定義する運用可能な認知プロトコル（QSAなど）とを密接に連携させる点。）
-    4.  （**ネイティブエンジンとしてのLLM：** 強力なLLMを、意味構造を解釈・生成・操作するための前提となるエンジンとして構想する点。）
--   （**単なる言い換えではなく統合：** したがって、SUIは単なる言い換えとしてではなく、有能なLLMの登場によって刺激され、特に人間とAIの深い認知的協働という課題と機会に焦点を当てた、既存のアイデアの**新しい統合と再フレーミング**として理解するのが最適です。それは、次世代の知的対話システムを設計するための新しいレンズと構造化されたアプローチを提供します。）
+（SUIは、LLMの能力によって刺激され、人間とAIの深い認知的協働を目指した、**新しいフレーミングと統合**です。詳細な分析については [`../research/sui_originality.md`](../research/sui_originality.md) を参照してください。）
 
 ---
 
@@ -131,16 +155,16 @@ Is SUI a completely new concept, or a rephrasing of existing ideas? While elemen
 
 -   SUI (Semantic User Interface) represents a potential **fundamental interaction paradigm** for the era of AI co-thinking, moving beyond GUI's focus on control.
     （SUI（意味的ユーザーインターフェース）は、AI共同思考の時代のための、制御に焦点を当てたGUIを超える潜在的な**基本的なインタラクションパラダイム**を表します。）
--   It enables structured collaboration by operating on **semantic primitives** (units of meaning and reasoning).
-    （それは、**意味的プリミティブ**（意味と推論の単位）に基づいて動作することにより、構造化された協働を可能にします。）
--   Structured protocols like **QSA provide concrete workflows** that leverage the SUI paradigm for specific cognitive tasks.
-    （**QSAのような構造化プロトコル**は、特定の認知タスクのためにSUIパラダイムを活用する**具体的なワークフロー**を提供します。）
--   LLMs serve as the **engines processing and generating semantic information** within the SUI environment.
-    （LLMは、SUI環境内で**意味情報を処理・生成するエンジン**として機能します。）
--   SUI is conceptually **format-agnostic**, opening possibilities for diverse future implementations beyond text.
-    （SUIは概念的に**フォーマット非依存**であり、テキストを超えた多様な将来の実装の可能性を開きます。）
--   While building on existing ideas, SUI offers a **novel synthesis focused on human-AI co-thinking protocols**.
-    （既存のアイデアを基盤としつつも、SUIは**人間-AI共同思考プロトコルに焦点を当てた新しい統合**を提供します。） # 独自性に関する要点を追加
+-   It empowers collaborative thinking by operating on **semantic primitives** (units of meaning and reasoning).
+    （それは、**意味的プリミティブ**（意味と推論の単位）に基づいて動作することにより、協調的思考をエンパワーします。）
+-   It contrasts with GUI ("Rest of Us") by aiming to be a "**Computer for the Quaerentes of Us**" (seekers/inquirers).
+    （それは、GUI（「残りの我々」）とは対照的に、「**探求する我々のためのコンピュータ**」を目指します。）
+-   Structured protocols like **QSA provide concrete workflows** that leverage the SUI paradigm.
+    （**QSAのような構造化プロトコル**は、SUIパラダイムを活用する**具体的なワークフロー**を提供します。）
+-   LLMs serve as the **engines processing and generating semantic information** within SUI.
+    （LLMは、SUI内で**意味情報を処理・生成するエンジン**として機能します。）
+-   While building on existing ideas, SUI offers a **novel synthesis focused on human-AI co-thinking protocols**. The term "Semantic UI" is reclaimed and redefined for this cognitive context.
+    （既存のアイデアを基盤としつつも、SUIは**人間-AI共同思考プロトコルに焦点を当てた新しい統合**を提供します。「Semantic UI」という用語はこの認知的文脈のために再定義・再獲得されます。）
 -   The name SUI's resonance with Japanese concepts (水: flow, 粋: essence, 推: inference, 随: collaboration) subtly reflects its intended qualities.
     （SUIという名称が日本語の概念（水：流れ、粋：本質、推：推論、随：協働）と響き合うことは、その意図する性質をさりげなく反映しています。）
 
@@ -148,10 +172,11 @@ Is SUI a completely new concept, or a rephrasing of existing ideas? While elemen
 
 ## Related Documents / 関連ドキュメント
 
--   [QSA Model Concept Overview](./concept_overview.md) *(A specific protocol operating within SUI)*
--   [iPS Framework - Designing Thought Structures (S) in QSA](./ips_framework.md) *(A helper framework for QSA's S-phase within SUI)*
--   [QSA Comparisons with Existing Models](../comparisons_with_existing_models.md) *(Situating QSA relative to other approaches)*
--   [Deep Research on QSA Originality](../research/deep_research_on_originality.md) *(Discusses the originality of the overall QSA model)* # 関連リンク追加
+-   [`./qsa_concept_overview.md`](./qsa_concept_overview.md) *(A specific protocol operating within SUI)*
+-   [`../extensions/ips_framework.md`](../extensions/ips_framework.md) *(A helper framework for QSA's S-phase)*
+-   [`../research/sui_originality.md`](../research/sui_originality.md) *(Deep dive into SUI's originality)*
+-   [`../research/qsa_originality.md`](../research/qsa_originality.md) *(Deep dive into QSA's originality)*
+-   [`../research/qsa_comparisons.md`](../research/qsa_comparisons.md) *(Situating QSA relative to other approaches)*
 
 ---
 
@@ -167,5 +192,3 @@ Is SUI a completely new concept, or a rephrasing of existing ideas? While elemen
     （**標準化の取り組み：** ツールとプラットフォーム間の相互運用性を促進するために、SUIの側面を標準化する可能性を調査する。）
 -   **Cognitive Impact Studies:** Researching how different SUI implementations affect human cognitive load, learning, creativity, and the quality of human-AI collaboration.
     （**認知的影響の研究：** 異なるSUI実装が、人間の認知負荷、学習、創造性、および人間とAIの協働の質にどのように影響するかを研究する。）
-
----
