@@ -60,6 +60,21 @@ This document introduces the concept of **SUI (Semantic User Interface)** as a *
 
 *（また、「SUI（スイ）」という名称は、いくつかの日本語の漢字とも響き合います：水（流れ、柔軟性）、粋（本質、洗練）、推（推論、示唆）、随（追随、協調、適応）。これらの含意――流動性、本質、推論、そして適応的な協働――は、SUIが目指す性質と興味深く調和します。）*
 
+## Philosophical Underpinnings / 哲学的背景
+
+The SUI paradigm is deeply informed by a cyclical model of intelligence and intellect, detailed further in [`./philosophy_of_intelligence.md`](./philosophy_of_intelligence.md). This model posits that true understanding and cognitive evolution arise from the iterative process of:
+
+(SUIパラダイムは、[`./philosophy_of_intelligence.md`](./philosophy_of_intelligence.md) で詳述される、知能・知性の循環モデルに深く影響を受けています。このモデルは、真の理解と認知的進化が、以下の反復プロセスから生じると提唱しています。)
+
+1.  **Compressing** complex information and experiences into core essences, patterns, or structures.
+    (複雑な情報や経験を、核となるエッセンス、パターン、または構造へと**圧縮する**こと。)
+2.  **Expanding** these compressed structures into new contexts, generating novel expressions, solutions, or further inquiries.
+    (これらの圧縮された構造を新しい文脈へと**展開し**、新たな表現、解決策、またはさらなる問いを生み出すこと。)
+
+SUI, by focusing on semantic primitives and structured interaction, seeks to create an environment where this compression-expansion cycle is made explicit and can be synergistically navigated by humans and AI. It is about moving beyond mere information retrieval or task execution towards a deeper, co-creative engagement with meaning.
+
+(SUIは、意味的プリミティブと構造化された相互作用に焦点を当てることにより、この圧縮と展開のサイクルが明示化され、人間とAIによって相乗的にナビゲートできる環境を創造することを目指します。それは、単なる情報検索やタスク実行を超えて、意味とのより深く、共創的な関与へと向かうものです。)
+
 ---
 
 ## Overview / 概要

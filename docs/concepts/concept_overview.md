@@ -21,6 +21,10 @@ The QSA Model defines a structured, recursive cognitive cycle designed to facili
 
 QSAモデルは、**人間とAIシステム（特にLLM）との間の相乗的な推論**を促進・強化するために設計された、構造化された再帰的な認知サイクルを定義します。本モデルは、問い駆動型の**協調的な思考進化**を、再現可能かつ拡張可能な**運用プロトコル**として定式化しています。
 
+Underpinning this, the QSA Model operationalizes a cyclical view of intelligence and intellect where "Structure (S)" can be seen as a form of "compression" of the problem space or knowledge, and "Answer (A)" along with "Thought (T)" represent an "expansion" of that compressed understanding into new insights or refined questions. (See [`./philosophy_of_intelligence.md`](./philosophy_of_intelligence.md) for more on this philosophical basis).
+
+これを支えるものとして、QSAモデルは、「構造（S）」を問題空間や知識の一種の「圧縮」と見なし、「答え（A）」と「思考（T）」がその圧縮された理解を新たな洞察や洗練された問いへと「展開」する、知能・知性の循環的視点を運用可能にします。（この哲学的基盤に関する詳細は [`./philosophy_of_intelligence.md`](./philosophy_of_intelligence.md) を参照）。
+
 ---
 
 ## Core Cycle: Q(x) → S → A(x) → Thought / コアサイクル - The Co-Thinking Protocol
@@ -53,6 +57,8 @@ The cycle provides the fundamental protocol for human-AI interaction and joint t
     （**人間主導・ガイド：**AIが重要な処理を実行する一方で、サイクルは通常、人間の問いかけと省察によって開始・誘導される。）
 -   **Flexibility & Extensibility:** The core protocol can be adapted and extended (e.g., with frameworks like iPS for the 'S' phase).
     （**柔軟性と拡張性：**コアプロトコルは適応・拡張が可能（例：'S'フェーズにiPSのようなフレームワークを導入）。）
+-   **Alignment with Compression-Expansion Model of Intellect:** The QSA cycle inherently reflects a process of compressing understanding into a 'Structure' and then expanding it through 'Answer' generation and 'Thought' reflection, fostering deeper cognitive engagement.
+    (知性の圧縮・展開モデルとの整合性：QSAサイクルは、理解を「構造」へと圧縮し、それを「答え」の生成と「思考」による内省を通じて展開するというプロセスを内包しており、より深い認知的関与を促進します。)
 
 ---
 
