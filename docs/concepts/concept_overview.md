@@ -17,29 +17,32 @@ language: ["en", "ja"]
 
 ## Purpose / 目的
 
+## Purpose / 目的
+
 The QSA Model defines a structured, recursive cognitive cycle designed to facilitate and enhance **synergistic reasoning between humans and AI systems (especially LLMs)**. It formalizes inquiry-driven **collaborative thought evolution** into a reproducible, extensible **operational protocol**.
 
-QSAモデルは、**人間とAIシステム（特にLLM）との間の相乗的な推論**を促進・強化するために設計された、構造化された再帰的な認知サイクルを定義します。本モデルは、問い駆動型の**協調的な思考進化**を、再現可能かつ拡張可能な**運用プロトコル**として定式化しています。
+Underpinning this, the QSA Model operationalizes a cyclical view of intelligence and intellect where "Structure (S)" can be seen as a form of "compression" of the problem space or knowledge, and "Answer (A)" along with "Thought (T)" represent an "expansion" of that compressed understanding into new insights or refined questions. (See [`./philosophy_of_intelligence.md`](./philosophy_of_intelligence.md) for more on this philosophical basis). **Furthermore, each completed QSA cycle itself acts as a higher-order compression of the inquiry process, transforming a complex question into a distilled "Thought" that serves as a potent seed for future intellectual expansion.**
 
-Underpinning this, the QSA Model operationalizes a cyclical view of intelligence and intellect where "Structure (S)" can be seen as a form of "compression" of the problem space or knowledge, and "Answer (A)" along with "Thought (T)" represent an "expansion" of that compressed understanding into new insights or refined questions. (See [`./philosophy_of_intelligence.md`](./philosophy_of_intelligence.md) for more on this philosophical basis).
+(QSAモデルは、人間とAIシステム（特にLLM）との間の相乗的な推論を促進・強化するために設計された、構造化された再帰的な認知サイクルを定義します。本モデルは、問い駆動型の協調的な思考進化を、再現可能かつ拡張可能な運用プロトコルとして定式化しています。
 
-これを支えるものとして、QSAモデルは、「構造（S）」を問題空間や知識の一種の「圧縮」と見なし、「答え（A）」と「思考（T）」がその圧縮された理解を新たな洞察や洗練された問いへと「展開」する、知能・知性の循環的視点を運用可能にします。（この哲学的基盤に関する詳細は [`./philosophy_of_intelligence.md`](./philosophy_of_intelligence.md) を参照）。
+これを支えるものとして、QSAモデルは、「構造（S）」を問題空間や知識の一種の「圧縮」と見なし、「答え（A）」と「思考（T）」がその圧縮された理解を新たな洞察や洗練された問いへと「展開」する、知能・知性の循環的視点を運用可能にします。（この哲学的基盤に関する詳細は [`./philosophy_of_intelligence.md`](./philosophy_of_intelligence.md) を参照）。**さらに、完了した各QSAサイクル自体が、探求プロセスのより高次の圧縮として機能し、複雑な問いを、将来の知的展開のための強力な種となる凝縮された「思考」へと変換します。**)
 
 ---
 
-## Core Cycle: Q(x) → S → A(x) → Thought / コアサイクル - The Co-Thinking Protocol
+## Core Cycle: Q(x) → S → A(x) → Thought (T) / コアサイクル - The Co-Thinking Protocol
 
 The cycle provides the fundamental protocol for human-AI interaction and joint thought progression:
+
 （このサイクルは、人間とAIの相互作用および共同での思考進行のための基本プロトコルを提供します：）
 
--   **Q(x)**: A question or inquiry is initiated, **typically by a human**, setting the context and goal.
-    （**通常は人間によって**、文脈と目標を設定する問いまたは探求が開始される。）
--   **S**: A structured intermediate representation (the 'Structure') is created **collaboratively or guided by the human** to organize approaches or logical frameworks for the question. This step is crucial for guiding the AI's reasoning.
-    （問いに対するアプローチや論理的枠組みを整理するため、**人間がガイドするか協調して**構造化された中間表現（「構造」）が作成される。このステップはAIの推論をガイドする上で不可欠である。）
--   **A(x)**: An answer or response is generated, **typically by the AI (LLM)**, grounded in the established Structure (S). Human insight can refine or augment this.
-    （確立された構造（S）に基づき、**通常はAI（LLM）によって**回答または応答が生成される。人間の洞察がこれを洗練・補強することもある。）
--   **Thought (T)**: Reflection on the Answer (A) occurs, **primarily by the human**, evaluating it against Q and S, generating new insights, and potentially formulating the next Question (Q(x+1)) to restart or refine the cycle.
-    （**主として人間によって**回答（A）に対する省察が行われ、QとSに照らして評価し、新たな洞察を生み出し、サイクルを再開または洗練するための次の問い（Q(x+1)）を潜在的に形成する。）
+-   **Q(x)**: A question or inquiry is initiated, **typically by a human**, setting the context and goal. *This marks the starting point for intellectual expansion.*
+    （**通常は人間によって**、文脈と目標を設定する問いまたは探求が開始される。*これは知的展開の出発点を示す。*)
+-   **S**: A structured intermediate representation (the 'Structure') is created **collaboratively or guided by the human** to organize approaches or logical frameworks for the question. *This phase represents a critical **"compression"** of the problem space, distilling relevant knowledge and strategy into an actionable framework.* This step is crucial for guiding the AI's reasoning.
+    （問いに対するアプローチや論理的枠組みを整理するため、**人間がガイドするか協調して**構造化された中間表現（「構造」）が作成される。*このフェーズは、問題空間の重要な **「圧縮」** を表し、関連する知識や戦略を実行可能なフレームワークへと凝縮する。*このステップはAIの推論をガイドする上で不可欠である。）
+-   **A(x)**: An answer or response is generated, **typically by the AI (LLM)**, grounded in the established Structure (S). *This is an **"expansion"** phase, where the compressed structure is unfolded into a specific, contextualized output.* Human insight can refine or augment this.
+    （確立された構造（S）に基づき、**通常はAI（LLM）によって**回答または応答が生成される。*これは**「展開」**フェーズであり、圧縮された構造が特定の文脈化されたアウトプットへと展開される。*人間の洞察がこれを洗練・補強することもある。）
+-   **Thought (T)**: Reflection on the Answer (A) occurs, **primarily by the human**, evaluating it against Q and S, generating new insights. *This is a phase of **"re-compression" and evaluation of the expansion**, where the learnings from the cycle are distilled.* Crucially, **this refined "Thought" itself becomes a compressed artifact of the entire Q(x)→S→A(x) cycle, serving as a highly potent, condensed seed for potentially formulating the next Question (Q(x+1))** to restart or refine the cycle for further intellectual exploration.
+    （**主として人間によって**回答（A）に対する省察が行われ、QとSに照らして評価し、新たな洞察を生み出す。*これは **「再圧縮」** と展開の評価のフェーズであり、サイクルからの学びが凝縮される。*決定的に重要なのは、**この洗練された「思考」自体が、Q(x)→S→A(x)サイクル全体の圧縮された成果物となり、さらなる知的探求のためにサイクルを再開または洗練するための、非常に強力で凝縮された種として機能する**ことである。）
 
 ---
 
@@ -51,8 +54,8 @@ The cycle provides the fundamental protocol for human-AI interaction and joint t
     （**運用プロトコル：**相互作用と処理のための明確な段階を定義し、AIシステムへの実装に適している。）
 -   **Explicit Structuring (S):** Mandates a dedicated phase for creating a guiding structure, enhancing reasoning quality and controllability.
     （**明示的な構造化（S）：**推論の質と制御性を高める、ガイドとなる構造を作成するための専用フェーズを必須とする。）
--   **Recursive Evolution:** Enables iterative deepening and refinement of thought through sequential QSA cycles.
-    （**再帰的進化：**連続的なQSAサイクルを通じて、思考の反復的な深化と洗練を可能にする。）
+-   **Recursive Evolution (Cyclical Compression & Expansion):** Enables iterative deepening and refinement of thought through sequential QSA cycles. **Each cycle not only refines understanding through internal compression (S) and expansion (A), but the culminating Thought (T) itself represents a meta-level compression of the entire inquiry, preparing fertile ground for subsequent, more focused, or transformed expansions (new QSA cycles).**
+    （**再帰的進化（循環的圧縮と展開）：** 連続的なQSAサイクルを通じて、思考の反復的な深化と洗練を可能にする。**各サイクルは、内部的な圧縮（S）と展開（A）を通じて理解を洗練するだけでなく、最終的な思考（T）自体が探求全体のメタレベルの圧縮を表し、それに続く、より焦点の定まった、あるいは変容した展開（新たなQSAサイクル）のための肥沃な土壌を準備する。**)
 -   **Human-Initiated & Guided:** While AI performs significant processing, the cycle is typically initiated and steered by human questioning and reflection.
     （**人間主導・ガイド：**AIが重要な処理を実行する一方で、サイクルは通常、人間の問いかけと省察によって開始・誘導される。）
 -   **Flexibility & Extensibility:** The core protocol can be adapted and extended (e.g., with frameworks like iPS for the 'S' phase).

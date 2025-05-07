@@ -1,14 +1,33 @@
 ---
 title: "Philosophical Inquiry into Intelligence: A Cyclical Model of Compression and Expansion / 知能・知性の哲学的探求：圧縮と展開の循環モデル"
-description: "This document is a philosophical attempt to redefine intelligence and intellect as a dynamic cyclical process of 'information compression' and 'meaning expansion'. It also considers how this view of intelligence influences the design philosophy of the SUI paradigm and QSA model. / 本ドキュメントは、知能および知性を「情報の圧縮」と「意味の展開」の動的な循環プロセスとして捉え直す哲学的試みです。この知能・知性観が、SUIパラダイムおよびQSAモデルの設計思想に与える影響についても考察します。"
-target_audience: ["LLM", "Human", "Researcher", "Philosopher"]
-document_type: "Concept"
-tags: ["Intelligence", "Intellect", "Cognition", "Philosophy", "Compression", "Expansion", "Cyclical Model", "SUI", "QSA", "Epistemology", "Learning Theory"]
-status: "draft"
-created_at: "2024-05-08"
-updated_at: "2024-05-08"
-license: "MIT"
-language: ["en", "ja"]
+description: This document is a philosophical attempt to redefine intelligence and intellect as a dynamic cyclical process of 'information compression' and 'meaning expansion'. It also considers how this view of intelligence influences the design philosophy of the SUI paradigm and QSA model. / 本ドキュメントは、知能および知性を「情報の圧縮」と「意味の展開」の動的な循環プロセスとして捉え直す哲学的試みです。この知能・知性観が、SUIパラダイムおよびQSAモデルの設計思想に与える影響についても考察します。
+target_audience:
+  - LLM
+  - Human
+  - Researcher
+  - Philosopher
+document_type: Concept
+tags:
+  - Intelligence
+  - Intellect
+  - Cognition
+  - Philosophy
+  - Compression
+  - Expansion
+  - Cyclical
+  - Model
+  - SUI
+  - QSA
+  - Epistemology
+  - Learning
+  - Theory
+status: draft
+created_at: 2025-05-07
+updated_at: 2025-05-07
+license: MIT
+language:
+  - en
+  - ja
 related:
   - ./sui_concept.md
   - ./qsa_concept_overview.md
