@@ -1,10 +1,10 @@
 ---
 title: "QSA Loop-06: Getting Started with Z:D in Obsidian - The QSA Thinking Log / QSAループ06: ObsidianでのZ:D実践 - QSA思考ログの導入"
 description: |
-  QSAT loop-06。ObsidianでZetteldistilla (Z:D) を実践するための具体的な第一歩として「QSA思考ログ」の導入を提案。多様なワークフローに適用可能で、思考の構造化とLLM連携準備を目的とする。YAML生成はLLM活用を前提とする。
+  QSAT loop-06。ObsidianでZetteldistillat (Z:D) を実践するための具体的な第一歩として「QSA思考ログ」の導入を提案。多様なワークフローに適用可能で、思考の構造化とLLM連携準備を目的とする。YAML生成はLLM活用を前提とする。
 loop: 06
 question: >
-  - ObsidianでZetteldistilla (Z:D) を実践するとすれば、何から始めればいいか？ (既存ワークフローへの影響を抑えつつ、具体的な第一歩として)
+  - ObsidianでZetteldistillat (Z:D) を実践するとすれば、何から始めればいいか？ (既存ワークフローへの影響を抑えつつ、具体的な第一歩として)
 status: published
 importance: 0.9
 dependencies: [loop-05_obsidian-llm-integration-analysis.md] # ユーザー指定のファイル名
@@ -14,7 +14,7 @@ next_loop_candidates:
   - loop-07_zd-article-structure-draft # Z:D紹介記事の構成案作成
 tags:
   - QSA
-  - Zetteldistilla
+  - Zetteldistillat
   - Z-D # Z:DからZ-Dへ統一
   - Obsidian
   - Workflow Design
@@ -32,7 +32,7 @@ qsa_loop_id: "zk-loop-06-zd-getting-started"
 ObsidianでZ:Dを始める第一歩として、既存ワークフローに追加可能な「QSA思考ログ」の導入を提案する。これは問い(Q)→構造(S)→応答(A)→思考(T)→精製(Distillation:Optional)を記録する独立した思考モジュールであり、思考の構造化とLLM連携の準備となる。LLMに既存ログや対話から生成させることも可能で、YAML生成もLLM活用を前提とし、人間は質の高い思考とレビューに集中する。
 
 ## Q(6)
-- ObsidianでZetteldistilla (Z:D) を実践するとすれば、何から始めればいいか？ (既存ワークフローへの影響を抑えつつ、具体的な第一歩として)
+- ObsidianでZetteldistillat (Z:D) を実践するとすれば、何から始めればいいか？ (既存ワークフローへの影響を抑えつつ、具体的な第一歩として)
 
 ## S(6): ObsidianにおけるZ:D実践の第一歩 - QSA思考ログ導入
 
@@ -57,7 +57,7 @@ ObsidianでZ:Dを始める第一歩として、既存ワークフローに追加
 
 ## A(6): ObsidianにおけるZ:D実践の第一歩 - QSA思考ログの導入
 
-ObsidianでZetteldistilla (Z:D) を実践する**具体的かつ着手しやすい最初の一歩**として、既存のワークフローに大きな変更を加えることなく導入可能な**「QSA思考ログ」**の作成と活用を提案します。これは、特定の「問い」について深く考えたいときに、その思考プロセスを構造化して記録するための独立した思考モジュールであり、**人間が主体的に作成するだけでなく、LLMとの連携によって多様な情報ソースから生成することも可能**です。
+ObsidianでZetteldistillat (Z:D) を実践する**具体的かつ着手しやすい最初の一歩**として、既存のワークフローに大きな変更を加えることなく導入可能な**「QSA思考ログ」**の作成と活用を提案します。これは、特定の「問い」について深く考えたいときに、その思考プロセスを構造化して記録するための独立した思考モジュールであり、**人間が主体的に作成するだけでなく、LLMとの連携によって多様な情報ソースから生成することも可能**です。
 
 **1. QSA思考ログとは？**
 

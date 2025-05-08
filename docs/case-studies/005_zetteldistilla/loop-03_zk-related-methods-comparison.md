@@ -1,7 +1,7 @@
 ---
 title: "QSA Loop-03: Comparative Analysis of Zettelkasten-Inspired Methods / QSAループ03: Zettelkasten派生・関連手法の比較分析"
 description: |
-  QSAT loop-03。Zettelkastenにインスパイアされた主要手法（Second Brain, Digital Garden, LYT/MOC, Evergreen Notes等）を特定し、Zettelkastenとの比較を通じて各手法の改善点と課題を分析する。zetteldistillaコンセプト設計の比較基盤構築を目的とする。
+  QSAT loop-03。Zettelkastenにインスパイアされた主要手法（Second Brain, Digital Garden, LYT/MOC, Evergreen Notes等）を特定し、Zettelkastenとの比較を通じて各手法の改善点と課題を分析する。Zetteldistillatコンセプト設計の比較基盤構築を目的とする。
 loop: 03
 question: >
   - Zettelkastenにインスパイアされた手法にはどのようなものがあるか？
@@ -12,7 +12,7 @@ status: published
 importance: 0.8
 dependencies: [loop-02_zk-painpoints.md]
 next_loop_candidates:
-  - loop-04_zetteldistilla-concept
+  - loop-04_zetteldistillat-concept
 tags:
   - QSA
   - Zettelkasten
@@ -32,7 +32,7 @@ qsa_loop_id: "zk-loop-03-related-methods"
 ---
 
 ## TL;DR
-Zettelkastenに触発された主要手法（Second Brain/PARA, Digital Garden, LYT/MOC, Evergreen Notes）は、それぞれZettelkastenの弱点（出口指向、共有性、構造化、更新性）を補おうとするが、新たな課題（深化不足、公開ハードル、複雑性、更新負荷）も抱える。完璧な手法はなく、目的や個人特性に応じた選択・カスタマイズが重要。これはzetteldistilla設計において解決すべき課題と提供価値を明確化する上で重要な示唆となる。
+Zettelkastenに触発された主要手法（Second Brain/PARA, Digital Garden, LYT/MOC, Evergreen Notes）は、それぞれZettelkastenの弱点（出口指向、共有性、構造化、更新性）を補おうとするが、新たな課題（深化不足、公開ハードル、複雑性、更新負荷）も抱える。完璧な手法はなく、目的や個人特性に応じた選択・カスタマイズが重要。これはZetteldistillat設計において解決すべき課題と提供価値を明確化する上で重要な示唆となる。
 
 ## Q(3)
 - Zettelkastenにインスパイアされた手法にはどのようなものがあるか？
@@ -46,7 +46,7 @@ Zettelkastenに触発された主要手法（Second Brain/PARA, Digital Garden, 
 - Zettelkastenから影響を受けた、あるいは比較される主要な知識管理・思考支援手法を特定し、網羅的にリストアップする。
 - 各手法がZettelkastenのどの側面（特にloop-02で特定された弱点）をどのように改良しようとしているのか、その具体的なアプローチや思想を明らかにする。
 - 同時に、各手法が抱える固有の課題や、Zettelkastenから引き継いでいる未解決の問題点を特定する。
-- これらの分析を通じて、Zettelkastenとその周辺手法のエコシステム全体を俯瞰的に理解し、後続のzetteldistillaコンセプト設計のための比較基盤を構築する。
+- これらの分析を通じて、Zettelkastenとその周辺手法のエコシステム全体を俯瞰的に理解し、後続のZetteldistillatコンセプト設計のための比較基盤を構築する。
 
 ### S-2 Plan (計画)
 1.  **手法のリストアップと選定:** 関連手法（Digital Garden, Second Brain/PARA, LYT/MOC, Evergreen Notes, Commonplace Book, ツール特化型など）を洗い出し、主要な分析対象を選定。
@@ -128,5 +128,5 @@ Zettelkastenに触発された手法は多様であり、それぞれがZettelka
 ## T(3)
 - Zettelkasten派生手法の比較分析により、各々が特定の弱点を補う一方で新たなトレードオフを生むことが明確になった。
 - 「完璧な手法」はなく、目的や個人特性に応じた選択・カスタマイズの必要性が浮き彫りになった。
-- これはzetteldistilla設計において、解決すべき課題と許容すべきトレードオフ、そして提供すべき独自の価値を定義する上で重要なインプットとなる。
-- 次の問い(Q(4))は、「これまでの分析を踏まえ、**zetteldistilla のコアコンセプト（目的、基本原則、Zettelkasten や他手法との明確な違い）は何か？** それは、特にどの課題を解決し、どのような独自の価値を提供しようとするのか？」とする。zetteldistillaの輪郭を描き始める。
+- これはZetteldistillat設計において、解決すべき課題と許容すべきトレードオフ、そして提供すべき独自の価値を定義する上で重要なインプットとなる。
+- 次の問い(Q(4))は、「これまでの分析を踏まえ、**Zetteldistillat のコアコンセプト（目的、基本原則、Zettelkasten や他手法との明確な違い）は何か？** それは、特にどの課題を解決し、どのような独自の価値を提供しようとするのか？」とする。Zetteldistillatの輪郭を描き始める。

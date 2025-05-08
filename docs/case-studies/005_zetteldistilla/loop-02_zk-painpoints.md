@@ -40,7 +40,7 @@ Zettelkasten は強力だが **(1) 本質的限界** ─ 初期 ROI の低さ・
 **(3) デジタル特有のギャップ** ─ パフォーマンス劣化・視覚化崩壊・バックリンク爆発・
 ワークフロー断絶・AI 利活用不足――の三層課題を抱える。  
 大規模化するほど“リンク地獄”と情報過多で離脱率が上昇する。  
-次ループでは KPI 実測と蒸留レイヤ (zetteldistilla) 設計で解決策を模索する。
+次ループでは KPI 実測と蒸留レイヤ (Zetteldistillat) 設計で解決策を模索する。
 
 ## Q
 - zettelkasten がメソッドとして抱える固有の限界は？  
@@ -146,7 +146,7 @@ Zettelkasten は強力だが **(1) 本質的限界** ─ 初期 ROI の低さ・
   - *蒸留レイヤ* (定期的な要約・再統合) が連鎖を断ち切る仮説。  
 - **次アクション**  
   - loop-03_kasten-metrics: KPI スクリプトで遅延・リンク切れを実測。  
-  - loop-03_distill-prototype: zetteldistilla PoC を設計。  
+  - loop-03_distill-prototype: Zetteldistillat PoC を設計。  
   - loop-03_related-methods: Digital Garden / BASB / Antinet の比較マトリクス。  
 - **仮説**  
   - 蒸留レイヤ導入で森林喪失・パフォーマンス劣化を同時緩和可能。  

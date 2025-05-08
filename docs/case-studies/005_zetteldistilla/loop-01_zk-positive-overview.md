@@ -150,7 +150,7 @@ Zettelkasten は **カード・永久 ID・双方向リンク・構造ノート*
 ## T (Thought / Reflection)
 
 - **Gap**: 弱点(高コスト・森を見失う等) は別 loop で扱う → `loop-02_kasten-critical`  
-- **Idea**: 蒸留レイヤを追加し「zetteldistilla」へ進化 → `loop-02_distillation-design`  
+- **Idea**: 蒸留レイヤを追加し「Zetteldistillat」へ進化 → `loop-02_distillation-design`  
 - **Action**:  
   - 根拠データ収集タスクを GitHub Issues にエクスポート  
   - KPI 取得スクリプト (Python) を tools/metrics へ試作  
