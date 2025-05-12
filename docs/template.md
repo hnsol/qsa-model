@@ -48,13 +48,13 @@ Provide a brief overview of the document's content and structure. Set the contex
 
 ### Structure (S) / 構造 (S)
 
-*(Describe the structure developed to address Q. This might involve outlining the plan, scope, framework used, potentially using iPS concepts.)*
-*（Qに対処するために開発された構造を記述します。プラン、スコープ、使用されたフレームワークの概要、潜在的にiPSの概念を使用するなど。）*
+*(Describe the structure developed to address Q. This might involve outlining the plan, scope, framework used, potentially using iPS concepts. For example: decomposition of the question, steps for analysis, evaluation criteria, plan for information gathering. **This section should NOT include the direct answer or conclusion to the question; it should only describe the 'structure' for deriving the answer.**)*
+*（Qに対処するために開発された構造を記述します。プラン、スコープ、使用されたフレームワークの概要、潜在的にiPSの概念を使用するなど。例: 問いの分解、分析のステップ、評価軸、情報収集の計画など。**このセクションには、問いに対する直接的な答えや結論は含めず、あくまで答えを導き出すための「構造」を記述してください。**) *
 
 ### Answer (A) / 答え (A)
 
-*(Present the answer derived based on the Structure S.)*
-*（構造Sに基づいて導き出された答えを提示します。）*
+*(Present the specific response, analysis, or consideration for the question, derived based on the Structure S defined above.)*
+*（上で定義した構造Sに基づいて導き出された、問いに対する具体的な応答、分析、考察などを提示します。）*
 
 ### Thought (T) / 思考 (T)
 

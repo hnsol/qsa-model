@@ -35,8 +35,8 @@ When tackling a Question (Q) in the QSA cycle, the iPS framework helps structure
 
 -   **Intent (インテント): What is the ultimate goal of answering Q?** Clearly define the desired outcome or purpose of this specific thinking cycle. *This sets the "why" for the Structure.*
     （**Qに答えることの最終ゴールは何か？** この特定の思考サイクルの望ましい成果や目的を明確に定義する。*これが構造の「なぜ」を設定する。*)
--   **Plan (プラン): How will we logically proceed to fulfill the Intent?** Draft a high-level strategy, sequence of steps, analytical framework, or reasoning path. *This outlines the "how" of the Structure.*
-    （**インテントを達成するために、論理的にどう進むか？** 大局的な戦略、手順のシーケンス、分析フレームワーク、または推論パスの草案を作成する。*これが構造の「どのように」の概要を示す。*)
+-   **Plan (プラン): How will we logically proceed to fulfill the Intent?** Draft a high-level strategy, sequence of steps, analytical framework, or reasoning path. **This defines the 'how-to' for developing the Answer (A), but the description here remains a 'plan' and does not include the actual execution results or conclusions (which belong in A).** *This outlines the "how" of the Structure.*
+    （**インテントを達成するために、論理的にどう進むか？** 大局的な戦略、手順のシーケンス、分析フレームワーク、または推論パスの草案を作成する。**これは答え（A）を作成するための「方法」を定義しますが、ここでの記述はあくまで「計画」であり、実際の実行結果や結論（Aに属するもの）は含みません。** *これが構造の「どのように」の概要を示す。*)
 -   **Scope (スコープ): What are the boundaries and guiding principles?** Specify constraints, assumptions, perspectives to consider, information sources to use/avoid, level of detail required, etc. *This defines the "what" and "what not" of the Structure, shaping the reasoning space.*
     （**境界線と指針は何か？** 制約、仮定、考慮すべき視点、使用/回避すべき情報源、要求される詳細度などを指定する。*これが構造の「何を」「何でないか」を定義し、推論空間を形成する。*)
 

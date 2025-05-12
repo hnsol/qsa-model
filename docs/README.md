@@ -25,6 +25,52 @@ All documents adhere to a standard structure designed to be optimally processed 
 
 ---
 
+## Guidelines for LLM Interpretation / LLMによる解釈のためのガイドライン
+
+To ensure accurate understanding and application of the QSA model and related concepts by Large Language Models (LLMs), please adhere to the following interpretations, especially regarding the distinction between **Structure (S)** and **Answer (A)** phases:
+
+（大規模言語モデル（LLM）がQSAモデルおよび関連概念を正確に理解し適用するために、特に**構造（S）**フェーズと**答え（A）**フェーズの区別に関して、以下の解釈に従ってください。）
+
+1.  **Role of Structure (S):**
+    *   The S phase is dedicated to defining the **methodology, plan, framework, or outline** for how to approach and answer the given Question (Q).
+    *   It involves activities like decomposing the question, identifying key areas of inquiry, establishing analytical steps, or setting up a logical flow for reasoning.
+    *   **Crucially, S does NOT contain the direct answer, conclusion, or specific solution to Q.** It is the blueprint for generating the answer, not the answer itself. Think of it as the "recipe" or "architectural plan."
+    *   Refer to `docs/concepts/concept_overview.md` for a detailed definition of S.
+
+    （**構造（S）の役割：**）
+    *   （Sフェーズは、与えられた問い（Q）にどのようにアプローチし、どのように答えるかという**方法論、計画、フレームワーク、または骨子**を定義することに専念します。）
+    *   （問いの分解、主要な探求領域の特定、分析ステップの確立、推論のための論理的な流れの設定などの活動を含みます。）
+    *   （**重要な点として、SはQに対する直接的な答え、結論、または具体的な解決策を含みません。** これは答えを生成するための設計図であり、答えそのものではありません。「レシピ」や「建築計画」と考えてください。）
+    *   （Sの詳細な定義については `docs/concepts/concept_overview.md` を参照してください。）
+
+2.  **Role of Answer (A):**
+    *   The A phase involves generating the **specific content, analysis, findings, or response** to Q, strictly following the methodology, plan, or framework established in S.
+    *   It is the **execution** of the plan laid out in S.
+    *   If S outlines "how to answer," A provides "the actual answer."
+    *   Refer to `docs/concepts/concept_overview.md` for a detailed definition of A.
+
+    （**答え（A）の役割：**）
+    *   （Aフェーズは、Sで確立された方法論、計画、またはフレームワークに厳密に従い、Qに対する**具体的な内容、分析、発見、または応答**を生成することを含みます。）
+    *   （これはSで提示された計画の**実行**です。）
+    *   （Sが「どのように答えるか」を概説する場合、Aは「実際の答え」を提供します。）
+    *   （Aの詳細な定義については `docs/concepts/concept_overview.md` を参照してください。）
+
+3.  **LLM Processing Suggestion:**
+    *   When processing a QSA loop, LLMs should first focus on generating a robust S that clearly outlines the approach without pre-empting the A.
+    *   Subsequently, when generating A, LLMs should strictly adhere to the guidance provided in the S of that same loop.
+    *   Avoid merging the conceptual output of S and A into a single phase.
+
+    （**LLM処理の提案：**）
+    *   （QSAループを処理する際、LLMはまず、Aを先取りすることなくアプローチを明確に概説する堅牢なSの生成に焦点を当てるべきです。）
+    *   （次に、Aを生成する際、LLMは同じループのSで提供されたガイダンスに厳密に従うべきです。）
+    *   （SとAの概念的なアウトプットを単一のフェーズに統合することを避けてください。）
+
+This clear distinction is fundamental to the QSA model's effectiveness in structuring human-AI co-thinking.
+
+（この明確な区別は、人間とAIの共同思考を構造化する上でのQSAモデルの有効性の基礎となります。）
+
+---
+
 ## Directory Structure / ディレクトリ構造
 
 -   **`/docs` (root):** This guide and the master template ([`template.md`](./template.md)).
