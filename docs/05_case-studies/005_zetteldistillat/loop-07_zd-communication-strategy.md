@@ -2,29 +2,37 @@
 title: "QSA Loop-07: Communication Strategy for QSA/Z:D Concepts / QSAループ07: QSA/Z:Dコンセプトの効果的な伝達戦略"
 description: |
   QSAT loop-07。QSA+LLM連携の強力さやZ:Dコンセプトの価値を、ターゲット読者（ZK, Obsidian, LLMに関心があり知的創造を目指す層）に効果的に伝え、導入を促すためのコミュニケーション戦略と論点整理を行う。人間心理や学習プロセスへの配慮を重視。
-loop: 07
-question: >
+loop: 7
+question: |
   - QSA+LLM連携の強力さやZ:Dコンセプトの価値を、多くの人間（特に知的生産性やツールに関心のある層）が誤解なく理解し、自分ごととして価値を感じ、「試してみたい」と思えるように伝えるには、どのような論点整理と伝え方の工夫が必要か？
 status: published
 importance: 0.8
-dependencies: [loop-06_zd-obsidian-getting-started.md] # loop-06のファイル名
+dependencies:
+  - loop-06_zd-obsidian-getting-started.md
 next_loop_candidates:
-  - loop-08_zd-article-outline # Z:D紹介記事の構成案作成
+  - loop-08_zd-article-outline
 tags:
   - QSA
   - Zetteldistillat
-  - Z-D
-  - Communication Strategy
+  - ZLD
+  - Communication
+  - Strategy
   - Adoption
-  - Knowledge Management
-  - LLM Collaboration
-  - Intellectual Creation # 知的創造
-  - Human Factors
+  - Knowledge
+  - Management
+  - LLM
+  - Collaboration
+  - Intellectual
+  - Creation
+  - Human
+  - Factors
 created_at: 2025-05-08
 updated_at: 2025-05-08
 license: MIT
-language: ["ja", "en"]
-qsa_loop_id: "zk-loop-07-zd-communication"
+language:
+  - ja
+  - en
+qsa_loop_id: zk-loop-07-zd-communication
 ---
 ## TL;DR
 QSA/Z:Dコンセプトを効果的に伝えるには、ターゲット読者（ZK/Obsidian/LLMに関心があり知的創造を目指す層）の課題に共感し、具体的なメリットを「知的創造」の文脈で提示する。ZK原理主義や新概念への抵抗等の障壁には、既存手法への敬意、スモールスタート提案、具体的なLLM連携例で対処する。共感から始まり、課題解決、実践方法、未来への期待感を提示するストーリーで、読者の知的好奇心と試行意欲を刺激する。

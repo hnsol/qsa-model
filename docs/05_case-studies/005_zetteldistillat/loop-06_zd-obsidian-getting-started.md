@@ -2,30 +2,37 @@
 title: "QSA Loop-06: Getting Started with Z:D in Obsidian - The QSA Thinking Log / QSAループ06: ObsidianでのZ:D実践 - QSA思考ログの導入"
 description: |
   QSAT loop-06。ObsidianでZetteldistillat (Z:D) を実践するための具体的な第一歩として「QSA思考ログ」の導入を提案。多様なワークフローに適用可能で、思考の構造化とLLM連携準備を目的とする。YAML生成はLLM活用を前提とする。
-loop: 06
-question: >
+loop: 6
+question: |
   - ObsidianでZetteldistillat (Z:D) を実践するとすれば、何から始めればいいか？ (既存ワークフローへの影響を抑えつつ、具体的な第一歩として)
 status: published
 importance: 0.9
-dependencies: [loop-05_obsidian-llm-integration-analysis.md] # ユーザー指定のファイル名
+dependencies:
+  - loop-05_obsidian-llm-integration-analysis.md
 next_loop_candidates:
-  - loop-07_qsa-log-template-refinement # QSAログテンプレート詳細化
-  - loop-07_llm-integration-patterns # LLM連携パターンの具体化
-  - loop-07_zd-article-structure-draft # Z:D紹介記事の構成案作成
+  - loop-07_qsa-log-template-refinement
+  - loop-07_llm-integration-patterns
+  - loop-07_zd-article-structure-draft
 tags:
   - QSA
   - Zetteldistillat
-  - Z-D # Z:DからZ-Dへ統一
+  - ZLD
   - Obsidian
-  - Workflow Design
-  - Getting Started
-  - LLM Collaboration
-  - Thinking Process
+  - Workflow
+  - Design
+  - Getting
+  - Started
+  - LLM
+  - Collaboration
+  - Thinking
+  - Process
 created_at: 2025-05-08
 updated_at: 2025-05-08
 license: MIT
-language: ["ja", "en"]
-qsa_loop_id: "zk-loop-06-zd-getting-started"
+language:
+  - ja
+  - en
+qsa_loop_id: zk-loop-06-zd-getting-started
 ---
 
 ## TL;DR

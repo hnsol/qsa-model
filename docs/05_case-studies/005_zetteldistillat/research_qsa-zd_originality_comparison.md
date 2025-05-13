@@ -2,29 +2,39 @@
 title: "Deep Research: Originality and Comparison of QSA/Z:D / 詳細調査：QSA/Z:Dの独自性と関連手法比較"
 description: |
   In-depth research examining the originality of the QSA (Z:D) concept and comparing it with existing related methodologies (Self-Ask, ReAct, ToT, Autonomous Agents, etc.) in AI, HCI, and cognitive science. This serves as foundational material for positioning QSA/Z:D. / QSA (Z:D) コンセプトの独自性を検証し、AI、HCI、認知科学における既存の関連手法（Self-Ask, ReAct, ToT, 自律エージェント等）と比較する詳細調査。QSA/Z:Dの位置づけのための基礎資料。
-target_audience: ["LLM", "Human", "Researcher"]
-document_type: "Research" # または Analysis
+target_audience:
+  - LLM
+  - Human
+  - Researcher
+document_type: Research
 tags:
   - QSA
   - Zetteldistillat
-  - Z-D
-  - Deep Research
+  - ZLD
+  - Deep
+  - Research
   - Originality
   - Comparison
-  - Literature Review
-  - Related Work
+  - Literature
+  - Review
+  - Related
+  - Work
   - HCI
-  - AI Alignment
-  - Cognitive Science
+  - AI
+  - Alignment
+  - Cognitive
+  - Science
 status: published
 created_at: 2025-05-08
 updated_at: 2025-05-08
 license: MIT
-language: ["en", "ja"]
-related: # 必要に応じて関連ループへのリンクを追加
+language:
+  - en
+  - ja
+related:
   - loop-04_zd-core-principles.md
   - loop-07_zd-communication-strategy.md
-source_deep_research_link: "https://chatgpt.com/s/dr_681cb229a1e48191907fd025ebea9124" # YAMLに含める場合
+source_deep_research_link: https://chatgpt.com/s/dr_681cb229a1e48191907fd025ebea9124
 ---
 
 ## Source Deep Research Session / 参照元DeepResearchセッション

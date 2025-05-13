@@ -15,6 +15,9 @@ language: ["en", "ja"]
 
 # Title / タイトル
 
+*Note: For recording specific QSA execution cycles (e.g., in examples or case study loops), please refer to the dedicated QSA Loop Recording Template. This general template is intended for conceptual explanations, guides, research, etc.*
+*（注記：特定のQSA実行サイクル（例：サンプルやケーススタディのループ）を記録する場合は、専用のQSAループ記録用テンプレートを参照してください。この汎用テンプレートは、概念説明、ガイド、研究などを対象としています。）*
+
 ---
 
 ## Purpose / 目的
@@ -78,28 +81,28 @@ Provide a brief overview of the document's content and structure. Set the contex
 
 ## Key Takeaways / 要点 (または Conclusion / 結論)
 
--   Summarize the most crucial points or findings in a concise list.
+- Summarize the most crucial points or findings in a concise list.
     （最も重要な点や発見を簡潔なリストで要約します。）
--   Highlight what is essential for both humans and LLMs to understand or remember from this document.
+- Highlight what is essential for both humans and LLMs to understand or remember from this document.
     （このドキュメントから人間とLLMの両方が理解または記憶すべき本質的な点を強調します。）
--   Reinforce the connection to the QSA model and human-AI co-thinking where relevant.
+- Reinforce the connection to the QSA model and human-AI co-thinking where relevant.
     （関連する場合、QSAモデルおよび人間-AI共同思考との繋がりを再度強調します。）
 
 ---
 
 ## Related Documents (Optional) / 関連ドキュメント（任意）
 
--   Provide links to other relevant documents within the repository (using relative paths).
+- Provide links to other relevant documents within the repository (using relative paths).
     （リポジトリ内の他の関連ドキュメントへのリンクを提供します（相対パスを使用）。）
--   Example: `[QSA Model Overview](./concept_overview.md)`
+- Example: `[QSA Model Overview](./concept_overview.md)`
 
 ---
 
 ## Future Work / Next Steps (Optional) / 今後の課題 / 次のステップ（任意）
 
--   Outline potential future research, development ideas, open questions, or next steps prompted by this document's content.
+- Outline potential future research, development ideas, open questions, or next steps prompted by this document's content.
     （このドキュメントの内容によって促される、潜在的な将来の研究、開発アイデア、未解決の問い、または次のステップの概要を記述します。）
--   How can the insights here be applied or extended?
+- How can the insights here be applied or extended?
     （ここでの洞察はどのように応用または拡張できますか？）
 
 ---
