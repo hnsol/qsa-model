@@ -7,12 +7,15 @@ tags: ["QSA", "LLM", "市場分析", "競争戦略", "差別化戦略", "AI", "�
 status: "completed"
 created_at: "2025-05-13"
 updated_at: "2025-05-13"
-license: "MIT" # 仮
+related:
+  - "250513_llm_DR01-LLM市場の勢力図・定量データと比較分析.md"
+  - "250513_llm_DR02-LLM市場の勢力図・競争構造と将来展望.md"
+license: "MIT"
 language: ["ja"]
 qsa_overall_question: "2025年5月のLLM（生成AI）の勢力図はどうなっていて、これからどうなりそうか？"
 qsa_cycle_id: "2"
 qsa_trigger: "サイクル1で明らかになった定量的勢力図の背景理解の必要性"
-prev_qsa_loop_file: "250513_llm_lp01_LLM-Quantitative-Analysis.md" # 前のサイクルへの参照
+prev_qsa_loop_file: "250513_llm_LP01-LLM-Quantitative-Analysis.md" # 前のサイクルへの参照
 ---
 
 ## Context / 背景・きっかけ

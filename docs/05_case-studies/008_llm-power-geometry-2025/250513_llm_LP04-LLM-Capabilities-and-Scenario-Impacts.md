@@ -7,12 +7,14 @@ tags: ["QSA", "LLM", "AIケイパビリティ", "技術トレンド", "未来予
 status: "completed"
 created_at: "2025-05-13"
 updated_at: "2025-05-13"
-license: "MIT" # 仮
+related:
+  - "250513_llm_DR02-LLM市場の勢力図・競争構造と将来展望.md"
+license: "MIT"
 language: ["ja"]
 qsa_overall_question: "2025年5月のLLM（生成AI）の勢力図はどうなっていて、これからどうなりそうか？"
 qsa_cycle_id: "4"
 qsa_trigger: "サイクル3の未来シナリオ分析を踏まえ、各シナリオにおけるLLMの具体的な能力変化と実用的価値を明確化する必要性"
-prev_qsa_loop_file: "250513_llm_lp03_Future-Scenarios-and-Drivers.md" # 前のサイクルへの参照
+prev_qsa_loop_file: "250513_llm_LP03-Future-Scenarios-and-Drivers.md" # 前のサイクルへの参照
 ---
 
 ## Context / 背景・きっかけ

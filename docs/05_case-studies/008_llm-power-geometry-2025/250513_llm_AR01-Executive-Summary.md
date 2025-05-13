@@ -7,14 +7,14 @@ tags: ["LLM", "生成AI", "市場分析", "未来予測", "AI戦略", "エグゼ
 status: "draft"
 created_at: "2025-05-13"
 updated_at: "2025-05-13"
-license: "MIT" # 仮
+license: "MIT"
 language: ["ja"]
 related_qsa_loops: # 今回のQSAループファイルへの参照（任意）
-  - "250513_llm_lp01_LLM-Quantitative-Analysis.md"
-  - "250513_llm_lp02_Market-Dynamics-and-Strategies.md"
-  - "250513_llm_lp03_Future-Scenarios-and-Drivers.md"
-  - "250513_llm_lp04_LLM-Capabilities-and-Scenario-Impacts.md"
-  - "250513_llm_lp05_Macro-Impact-Analysis.md"
+  - "250513_llm_LP01-LLM-Quantitative-Analysis.md"
+  - "250513_llm_LP02-Market-Dynamics-and-Strategies.md"
+  - "250513_llm_LP03-Future-Scenarios-and-Drivers.md"
+  - "250513_llm_LP04-LLM-Capabilities-and-Scenario-Impacts.md"
+  - "250513_llm_LP05-Macro-Impact-Analysis.md"
 ---
 
 ## はじめに

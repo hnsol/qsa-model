@@ -10,11 +10,11 @@ updated_at: "2025-05-14" # 最終更新日
 license: "MIT"
 language: ["ja"]
 related_qsa_loops:
-  - "250513_llm_lp01_LLM-Quantitative-Analysis.md"
-  - "250513_llm_lp02_Market-Dynamics-and-Strategies.md"
-  - "250513_llm_lp03_Future-Scenarios-and-Drivers.md"
-  - "250513_llm_lp04_LLM-Capabilities-and-Scenario-Impacts.md"
-  - "250513_llm_lp05_Macro-Impact-Analysis.md"
+  - "250513_llm_LP01-LLM-Quantitative-Analysis.md"
+  - "250513_llm_LP02-Market-Dynamics-and-Strategies.md"
+  - "250513_llm_LP03-Future-Scenarios-and-Drivers.md"
+  - "250513_llm_LP04-LLM-Capabilities-and-Scenario-Impacts.md"
+  - "250513_llm_LP05-Macro-Impact-Analysis.md"
 ---
 
 ## はじめに

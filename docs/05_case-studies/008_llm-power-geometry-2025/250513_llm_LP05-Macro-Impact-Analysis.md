@@ -7,12 +7,14 @@ tags: ["QSA", "LLM", "市場構造", "産業構造", "労働市場", "国際競�
 status: "completed"
 created_at: "2025-05-13"
 updated_at: "2025-05-13"
-license: "MIT" # 仮
+related:
+  - "250513_llm_DR02-LLM市場の勢力図・競争構造と将来展望.md"
+license: "MIT"
 language: ["ja"]
 qsa_overall_question: "2025年5月のLLM（生成AI）の勢力図はどうなっていて、これからどうなりそうか？"
 qsa_cycle_id: "5"
 qsa_trigger: "サイクル4で分析したLLMの能力変化が、より広範な社会経済システムに与える影響を考察する必要性"
-prev_qsa_loop_file: "250513_llm_lp04_LLM-Capabilities-and-Scenario-Impacts.md" # 前のサイクルへの参照
+prev_qsa_loop_file: "250513_llm_LP04-LLM-Capabilities-and-Scenario-Impacts.md" # 前のサイクルへの参照
 ---
 
 ## Context / 背景・きっかけ
