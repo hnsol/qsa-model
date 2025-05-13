@@ -554,6 +554,10 @@ LLMが切り開く未来は、楽観的なユートピアでも、悲観的な�
   - [LLM市場の定量的勢力図と比較分析（2025年5月時点）](https://chatgpt.com/s/dr_68229fea2ef08191a20984acf30cbdca)
   - [2025年の大規模言語モデル市場：競争構造と将来展望](https://chatgpt.com/s/dr_68229f6bfbb48191a2f059d74b49aaee)
 
+**本記事のサマリー:**
+- **[エグゼクティブ・サマリー：LLM市場の現状と未来展望（2025年5月版）](https://silme.zelo-loop.com/250513_LLM-Executive-Summary)**
+  - LLM市場の現状、主要プレイヤーの戦略、今後の注目トレンド、未来シナリオの要点を1～2ページで解説。全体感把握に、まずはこちらを。
+
 **一般的な参考情報源（LLM市場の動向把握のため）:**
 - **主要AI企業・研究機関公式サイト/ブログ:**
   - OpenAI: [https://openai.com/](https://openai.com/)
