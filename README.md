@@ -50,7 +50,7 @@ language: ["ja", "en"]
     -   QSAモデルの核心を知りたければ [`docs/00_overview/concept_overview.md`](./docs/00_overview/concept_overview.md) を、その実践的側面については [`docs/20_qsa/README.md`](./docs/20_qsa/README.md) をお読みください。
 3.  **QSAを実践する:**
     -   QSAループの具体的なテンプレートは [`templates/qsa_loop_template.md`](./templates/qsa_loop_template.md) にあります。
-    -   実践的なサンプルは [`examples/`](./examples/) フォルダ内にあります。（例: [`examples/simple_loop_example.md`](./examples/simple_loop_example.md)）
+    -   実践的なサンプルは [`examples/`](./examples/) フォルダ内にあります。（例: [`examples/simple_loop_example.md`](example_startup_success_factors_qsa.md)）
 4.  **より深く探求する:**
     -   QSAの拡張（IPSフレームワーク）や実装例（Zetteldistillat）、詳細なケーススタディ、独自性に関する調査は、それぞれ `docs/` 配下の各フォルダに格納されています。各フォルダの `README.md` が案内役となります。
 
