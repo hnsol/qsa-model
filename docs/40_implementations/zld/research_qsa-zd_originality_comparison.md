@@ -1,7 +1,7 @@
 ---
-title: "Deep Research: Originality and Comparison of QSA/Z:D / 詳細調査：QSA/Z:Dの独自性と関連手法比較"
+title: "Deep Research: Originality and Comparison of QSA/ZLD / 詳細調査：QSA/ZLDの独自性と関連手法比較"
 description: |
-  In-depth research examining the originality of the QSA (Z:D) concept and comparing it with existing related methodologies (Self-Ask, ReAct, ToT, Autonomous Agents, etc.) in AI, HCI, and cognitive science. This serves as foundational material for positioning QSA/Z:D. / QSA (Z:D) コンセプトの独自性を検証し、AI、HCI、認知科学における既存の関連手法（Self-Ask, ReAct, ToT, 自律エージェント等）と比較する詳細調査。QSA/Z:Dの位置づけのための基礎資料。
+  In-depth research examining the originality of the QSA (ZLD) concept and comparing it with existing related methodologies (Self-Ask, ReAct, ToT, Autonomous Agents, etc.) in AI, HCI, and cognitive science. This serves as foundational material for positioning QSA/ZLD. / QSA (ZLD) コンセプトの独自性を検証し、AI、HCI、認知科学における既存の関連手法（Self-Ask, ReAct, ToT, 自律エージェント等）と比較する詳細調査。QSA/ZLDの位置づけのための基礎資料。
 target_audience:
   - LLM
   - Human
@@ -49,7 +49,7 @@ The analysis presented in this document is based on a detailed Deep Research ses
 
 ## title: Comparing QSA/Zetteldistillat with Similar AI-Assisted Thinking Frameworks
 
-**QSA (Question → Structure → Answer → Thought)** – also termed **Zetteldistillat (Z:D)** – is a structured *human-AI co-thinking* protocol. It combines principles of problem-solving and knowledge distillation into an iterative loop of **Q → S → A → Thought**. Below, we compare QSA/Z:D with related AI-assisted knowledge structuring and thinking-support methods, focusing on: (1) conceptual/ideological differences, (2) the role of LLMs in each, (3) implementation practicality, (4) UI/UX precedents and challenges, (5) uniqueness of QSA, and (6) connections to academic contexts (HCI, AI in education, metacognition).
+**QSA (Question → Structure → Answer → Thought)** – also termed **Zetteldistillat (ZLD)** – is a structured *human-AI co-thinking* protocol. It combines principles of problem-solving and knowledge distillation into an iterative loop of **Q → S → A → Thought**. Below, we compare QSA/ZLD with related AI-assisted knowledge structuring and thinking-support methods, focusing on: (1) conceptual/ideological differences, (2) the role of LLMs in each, (3) implementation practicality, (4) UI/UX precedents and challenges, (5) uniqueness of QSA, and (6) connections to academic contexts (HCI, AI in education, metacognition).
 
 ## 1\. Ideological Differences from Similar Methods
 
@@ -164,9 +164,9 @@ The following table provides a high-level comparison of QSA/Zetteldistillat with
 
 ---
 
-## タイトル: QSA/Z:Dと関連手法に関する詳細調査
+## タイトル: QSA/ZLDと関連手法に関する詳細調査
 
-**QSA（Question → Structure → Answer → Thought）** – 別称 **Zetteldistillat（Z:D）** – は、構造化された**人間とAIの共同思考**プロトコルです。これは、問題解決と知識蒸留の原則を**Q → S → A → 思考**の反復ループに統合したものです。以下では、QSA/Z:Dを、AI支援による知識構造化および思考支援の関連手法と比較し、以下の点に焦点を当てます：(1) 概念的・思想的な違い、(2) それぞれにおけるLLMの役割、(3) 実装の実用性、(4) UI/UXの先行事例と課題、(5) QSAの独自性、(6) 学術的文脈（HCI、教育AI、メタ認知）との関連性。
+**QSA（Question → Structure → Answer → Thought）** – 別称 **Zetteldistillat（ZLD）** – は、構造化された**人間とAIの共同思考**プロトコルです。これは、問題解決と知識蒸留の原則を**Q → S → A → 思考**の反復ループに統合したものです。以下では、QSA/ZLDを、AI支援による知識構造化および思考支援の関連手法と比較し、以下の点に焦点を当てます：(1) 概念的・思想的な違い、(2) それぞれにおけるLLMの役割、(3) 実装の実用性、(4) UI/UXの先行事例と課題、(5) QSAの独自性、(6) 学術的文脈（HCI、教育AI、メタ認知）との関連性。
 
 ## 1. 類似手法との思想的な違い
 
